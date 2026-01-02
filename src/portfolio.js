@@ -21,11 +21,11 @@ const illustration = {
 
 const greeting = {
   username: "Mahmoud Alhihi",
-  title: "Hey all, I'm Mahmoud",
+  title: "Computer Vision & Machine Learning Student",
   subTitle: emoji(
-    "Computer Vision | Deep Learning | AI in Healthcare"
+    "Computer Vision | Deep Learning | Robotics & AI in Healthcare"
   ),
-  resumeLink:"/Mahmoud_Alhihi_Resume.pdf", // Set to empty to hide the button
+  resumeLink: "/Mahmoud_Alhihi_Resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/MahmoudAlhihi",
   linkedin: "https://www.linkedin.com/in/mahmoud-alhihi-238047254/",
-  //gmail: "mahmoudalhihi7@gmail.com",
+  gmail: "mahmoudalhihi7@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
   //medium: "https://medium.com/@saadpasta",
@@ -48,15 +48,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PASSIONATE COMPUTER VISION & DEEP LEARNING STUDENT EXPLORING AI FOR GOOD",
+  subTitle: "COMPUTER VISION & DEEP LEARNING ENGINEER BUILDING AI FOR HEALTHCARE AND AUTONOMOUS SYSTEMS",
   skills: [
     emoji(
-      "⚡Build and train deep learning models using PyTorch and OpenCV"
+      "⚡ Design and train CV models (CNNs, ViTs) for medical imaging tasks "
     ),
-    emoji("⚡ Design real-time object detection systems using YOLOv5/v8"),
     emoji(
-      "⚡ Apply AI to healthcare and medical imaging projectsn"
-    )
+      "⚡ Deploy ML pipelines on AWS (EC2, S3, SageMaker) with reproducibility and monitoring"
+    ),
+    emoji("⚡ Build perception to planning to control pipelines in ROS2 for autonomous systems"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -88,7 +88,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-microscope"
     },
     {
-      skillName: "LabelImg",
+      skillName: "ROS2",
       fontAwesomeClassname: "fas fa-image"
     },
     {
@@ -96,8 +96,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-laptop-code"
     },
     {
-      skillName: "Microsoft Azure",
-      fontAwesomeClassname: "fab fa-microsoft"
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "OpenCV",
@@ -111,7 +111,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "C++",
       fontAwesomeClassname: "fas fa-code"
     },
-    
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,10 +126,11 @@ const educationInfo = {
       logo: require("./assets/images/umnLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2024 - May 2026",
-      desc: "Completing core CSCI courses and technical electives focused on Artificial Intelligence and Machine Learning.",
+      desc: "Focused on Computer Vision, Deep Learning, and Robotics, with applications in healthcare and autonomous systems.",
       descBullets: [
-        "2x Dean’s List recipient",
-        "Tau Sigma Honor Society member for transfer student excellence"
+        "3x Dean’s List recipient",
+        "Tau Sigma Honor Society member for transfer student excellence",
+        "Teaching Assistant for CSCI 3923 (Ethics and Computing) and CSCI 4511W (Artificial Intelligence)"
       ]
     },
     {
@@ -137,7 +138,7 @@ const educationInfo = {
       logo: require("./assets/images/centuryLogo.png"),
       subHeader: "Associate of Science in Computer Science",
       duration: "August 2022 - July 2024",
-      desc: "Focused on foundational computer science courses",
+      desc: "Focused on foundational computer science, algorithms, and mathematics, building a strong base for advanced AI coursework.",
       descBullets: [
         "4x Dean’s List recipient",
         "Phi Theta Kappa (PTK) member for academic excellence",
@@ -154,15 +155,15 @@ const techStack = {
   experience: [
     {
       Stack: "Python", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "OpenCV",
-      progressPercentage: "50%"
+      Stack: "Pytorch",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Tensorflow",
-      progressPercentage: "50%"
+      Stack: "ROS2",
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -173,6 +174,19 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Teaching Assistant",
+      company: "University of Minnesota",
+      companylogo: require("./assets/images/umnLogo.png"),
+      date: "September 2025 – Present",
+      desc: "Courses: CSCI 3923 (Ethics and Computing), CSCI 4511W (Artifical Intelligence)",
+      descBullets: [
+        "Hold weekly office hours to support students with course material, assignments, and conceptual undersatanding",
+        "Procotor examinations and ensure compliance with university policies",
+        "Grade assignments, quizzes, midterms, and papers while maintaing academic integrity and consistency",
+        "Participate in weekly TA meetings"
+      ]
+    },
     {
       role: "Tech Assistant",
       company: "Century College",
@@ -186,56 +200,49 @@ const workExperiences = {
       ]
     },
     {
+      role: "Tech Coach (Volunteer)",
+      company: "Minnesota Literacy",
+      companylogo: require("./assets/images/mnLitLogo.png"),
+      date: "August 2023 – December 2023",
+      desc: "Provided technology training and one-on-one support to immigrants and formerly incarcerated individuals, helping build essential digital literacy",
+      descBullets: [
+        "Taught basic hardware and software usage to increase confidence in using technology.",
+        "Covered topics including Microsoft Office, Google Workspace, and internet safety."
+      ]
+    },
+     {
+      role: "Peer Mentor",
+      company: "Century College",
+      companylogo: require("./assets/images/centuryLogo.png"),
+      date: "August 2023 – May 2024",
+      desc: "Mentored and supported a diverse group of students, providing guidance on academic success, campus resources, and personal development.",
+      descBullets: [
+        "Earned NASPA Certified Peer Educator (CPE) credential",
+        "Supported students with time management, stress management, and academic planning.",
+        "Collaborated with students and supervisors from diverse backgrounds to connect students with appropriate campus resources."
+
+      ]
+
+    },
+    {
       role: "Support services greeter",
       company: "Century College",
       companylogo: require("./assets/images/centuryLogo.png"),
       date: "January 2023 – January 2024",
       desc: "Provided front-line support to students and parents by offering guidance, answering questions, and maintaining a welcoming, organized study environment.",
       descBullets: [
-        "Assisted students and parents with inquiries about tutoring spaces and campus navigation.",
-        "Maintained a clean, organized, and study-ready environment.",
-        
+        "Assisted students and parents with inquiries related to tutoring services, study spaces and campus navigation.",
+        "Communicated clearly and professionaly with diverse audiences in a fast=paced academic environment",
+        "Helped maintain an organized, welcoming space that supported focused study and student engagement"
+
       ]
     },
 
-    {
-      role: "Peer Mentor",
-      company: "Century College",
-      companylogo: require("./assets/images/centuryLogo.png"),
-      date: "August 2023 – May 2024",
-      desc: "Mentored and supported a diverse group of students, providing guidance on academic success, campus resources, and personal development. Earned NASPA Peer Educator certification.",
-      descBullets: [
-        "Obtained NASPA Certified Peer Educator (CPE) credential.",
-        "Collaborated with students and supervisors from diverse backgrounds.",
-        "Assisted students in managing stress, improving time management, and navigating campus resources."
-        
-      ]
-      
-    },
+   
 
-    {
-      role: "Teaching Assistant",
-      company: "University of Minnesota",
-      companylogo: require("./assets/images/umnLogo.png"),
-      date: "September 2025 – Present",
-      desc: "Supporting the delivery of the Ethics in Computing course by assisting the professor with course facilitation, grading, and student engagement.",
-      descBullets: [
-        "Support grading and provide feedback on student assignments.",
-        "Facilitate discussions on topics such as algorithmic bias, AI ethics, data privacy, and professional responsibility."
-      ]
-    },
+    
 
-    {
-      role: "Tech Coach (Volunteer)",
-      company: "Minnesota Literacy",
-      companylogo: require("./assets/images/mnLitLogo.png"),
-      date: "August 2023 – December 2023",
-      desc: "Provided technology training and support to immigrants and former inmates, helping them build essential digital skills.",
-      descBullets: [
-        "Taught basic hardware and software usage to increase confidence in using technology.",
-        "Covered topics including Microsoft Office, Google Workspace, and internet safety."
-      ]
-    }
+    
   ]
 };
 
@@ -255,11 +262,11 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/detect.jpeg"),
-      projectName: "Stationary Object Detection",
-      projectDesc: "Collected and annotated a dataset of 226 images for various stationary objects. Trained YOLOv8 models on custom data using Google Colab and Ultralytics, achieving high-accuracy detection.",
+      projectName: "YOLOv11s-Based Stationary Object Detection",
+      projectDesc: "Implemented a full YOLO-based detection pipeline in Google Colab, including custom dataset preparation, automated train/validation splitting, YAML configuration generation, model trainimg, validation inference, and model export. Trained a YOLOv11s detector for 60 epochs on manually annotated dataset and evaluated performance on unseen validation images before packaging trained weights and results for deployment",
       footerLink: [
         {
-          name: "Visit Google Colab",
+          name: "View Training Notebook",
           url: "https://colab.research.google.com/drive/1IY3cwbWdetpRWfH-Qe_h8FWRKmCRfORd?usp=sharing"
         }
         //  you can add extra buttons here.
@@ -268,28 +275,50 @@ const bigProjects = {
     {
       image: require("./assets/images/map.png"),
       projectName: "Drone Simulation",
-      projectDesc: "Implemented an interactive drone delivery simulation in C++, including real-time navigation and dynamic entity interactions.       Developed a “Sky Reaper” extension to detect and pursue drones, attempting to intercept and decrypt encrypted package contents.",
+      projectDesc: "Developed a C++ based drone delivery simulation as part of a team project, featuring real-time navigation, delivery workflows, and dynamic entity interactions in a 3D environment. I designed and implemented the SkyReaper adversarial interception module, which probabilistically detects, tracks, and attempts to intercept delivery drones by stealing packages during transit. The system models stochastic success and failure outcomes, simulating realistic security threats and enabling evaluation of drone safety and interception scenarios",
       footerLink: [
         {
-          name: "Visit Youtube",
+          name: "View Demo Video",
           url: "https://youtu.be/Wv5aVv6Qr6Q?si=LagIaNo8OCOcBMif"
         }
       ]
     },
-  
-   {
-    image: require("./assets/images/skin.png"),
-    projectName: "Skin Cancer segmentation",
-    projectDesc: "Preprocessed medical imaging datasets and applied data augmentation for skin lesion segmentation tasks.Preprocessed medical imaging datasets and applied data augmentation for skin lesion segmentation tasks.",
-    footerLink: [
-      {
-        name: "Visit Google Colab",
-        url: ""
-      }
-    ]
-  }
-],
-  
+    {
+      image: require("./assets/images/mazebot.png"),
+      projectName: "Mazebot",
+      projectDesc: "Implemented an autonomous maze-solving robot in ROS2 and Gazebo using a Sense-plan-act architecture. Designed a Planning node based on the Bug2 algorithm for goal-directed navigation and a Safety node leveraging LiDAR data for real-time obstacle avoidance. Contributed to motion planning logic, obstacle detection, and system integration, enabling safe navigation through custom maze environments",
+      footerLink: [
+        {
+          name: "Demo Video",
+          url: "https://youtu.be/LaflHsUZ3YU"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/loading.png"),
+      projectName: "MedGuard Vision",
+      projectDesc: "Designing a hospital-focused computer vision system for real-time safety and monitoring and threat detection in clinical environments. Scoping datasets, model architectures, and deployment workflows for an end-to-end medical AI pipeline, with an emphasis on robustness, privacy, and real-time inference. This project is currently under active development.",
+      footerLink: [
+        {
+          name: "",
+          url: ""
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/skin.png"),
+      projectName: "Skin Cancer segmentation",
+      projectDesc: "Implemented an end-to-end skin lesion segmentation pipeline using medical imaging data, including dataset loading, metadata processing, image-mask pairing, and preprocessing. Built and Trained a U-Net architecture in Tensorflow for pixel-wise lesion segmentation, performing image normalization, train/validation/test splitting, and qualitative evaluation through predicted mask visualization. The project focuses on learning robust medical image preprocessing and segmentation workflows and is currenlty under active development",
+      footerLink: [
+        {
+          name: "Visit Training Notebook",
+          url: "https://colab.research.google.com/drive/1GNp1aoua_5pPH4k0ENwzmQpPdn-5guMD?usp=sharing"
+        }
+      ]
+    }
+  ],
+
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -303,9 +332,22 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Fundamentals of Machine Learning and Artificial Intelligence",
+      subtitle:
+        "",
+      image: require("./assets/images/aws_logo.png"),
+      imageAlt: "Stanford Medicine Logo",
+      footerLink: [
+        {
+          name: "Certification: ",
+          url: "https://drive.google.com/file/d/17I5KM1HBASloMKqSA2IdysyiS_EiQ9O7/view?usp=sharing"
+        }
+      ]
+    },
+    {
       title: "OpenCV bootcamp",
       subtitle:
-        "Covered topics like image processing, filtering, pose estimation, HDR, face detection, object tracking, and more.",
+        "Hands-on training in computer vision using OpenCV and deep learning, covering image processing and manipulation, annotation and enhancement, image filtering, feature detection and alignment, panorama stitching, HDR imaging, real-time camera and video processing, object tracking, face detection, TensorFlow-based object detection, and human pose estimation using OpenPose.",
       image: require("./assets/images/cv.png"),
       imageAlt: "OpenCV logo",
       footerLink: [
@@ -313,7 +355,17 @@ const achievementSection = {
           name: "Certification",
           url: "https://drive.google.com/file/d/1W3rYEpKtShJK5-4PIwlpN1mlXf3BmThy/view?usp=sharing"
         },
-       
+
+      ]
+    },
+    {
+      title: "Tensorflow bootcamp",
+      subtitle: "Hands-on training in deep learning fundamentals and applications, covering neural network architectures and training principles, linear regression modeling, multilayer perceptrons for MNIST digit classification, convolutional neural networks, CIFAR-10 image classification, image classification using pre-trained ImageNet models, transfer learning and fine-tuning, as well as introductory concepts in semantic segmentation and object detection. ",
+      image: require("./assets/images/cv.png"),
+      imageAlt: "Tensorflow Logo",
+      footerLink: [
+        { name: "Certification", url: "https://drive.google.com/file/d/19TpYoQ569Hi9eJXKh-KmnoI42137U2Or/view?usp=sharing" },
+
       ]
     },
     {
@@ -343,85 +395,130 @@ const achievementSection = {
       ]
     },
 
+    
+   
     {
-      title: "Tensorflow bootcamp",
-      subtitle: "Covered Topics like neural network fundamentals, CNNs, image classification, semantic segmentation, transfer learning, object detection, and linear regression. ",
-      image: require("./assets/images/cv.png"),
-      imageAlt: "Tensorflow Logo",
+      title: "Fundamentals of AI and Machine Learning in Healthcare",
+      subtitle:
+        "",
+      image: require("./assets/images/stanford.png"),
+      imageAlt: "Stanford Medicine Logo",
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/19TpYoQ569Hi9eJXKh-KmnoI42137U2Or/view?usp=sharing" },
-       
+        {
+          name: "Certification: ",
+          url: "https://drive.google.com/file/d/1B-85-1Qs1y4Y-7iXRFvgxJz7A16v2sOc/view?usp=sharing "
+        }
       ]
     },
     {
-    title: "Peer Educator",
+      title: "Evaluations of AI applications in Healthcare",
+      subtitle:
+        "",
+      image: require("./assets/images/stanford.png"),
+      imageAlt: "Stanford Medicine Logo",
+      footerLink: [
+        {
+          name: "Certification: ",
+          url: "https://drive.google.com/file/d/1bOHriV8-tfcLDKlc1Af_OugGY83ftEii/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "AI in healthcare Capstone project",
+      subtitle:
+        "",
+      image: require("./assets/images/stanford.png"),
+      imageAlt: "Stanford Medicine Logo",
+      footerLink: [
+        {
+          name: "Certification: ",
+          url: "https://drive.google.com/file/d/1VzwRHLBtyvvmOrcplkdtHnAi2wEKBU_n/view?usp=sharing"
+        }
+      ]
+    },
+     {
+      title: "Peer Educator",
       subtitle: "Gained skills in peer support, ethics, cultural competence, empathy, bystander intervention, and event planning to promote positive change and effectively assist students in navigating challenges. ",
       image: require("./assets/images/naspa.png"),
       imageAlt: "NASPA Logo",
       footerLink: [
         { name: "Certification", url: "https://drive.google.com/file/d/10Hz2IWpDaJlxBdi5aBWa_7e-Fduhepx4/view?usp=sharing" },
-       
+
       ]
-    }
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
 
+// Research Section (using blogSection structure but with only one item)
+
 const blogSection = {
-  title: "Blogs",
+  title: "Research",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "AI, Computer Vision, and Healthcare research I'm currently working on.",
+
+  displayMediumBlogs: "false", // We are not using Medium blog fetch
+
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "", // Add the link to your paper, GitHub repo, Overleaf PDF later
+      title:
+        "Comparative Analysis of CNNs and Vision Transformers for Medical Imaging",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Ongoing research project analyzing model performance on lung/colon cancer histopathology and chest X-ray pneumonia datasets using CNNs, ResNet18, and ViT-B/16. Focused on classification accuracy, training behavior, and feature representation differences."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+
+  display: true
 };
+
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+  title: "Featured",
+  subtitle: "Featured stories, interviews, and editorial highlights recognizing my academic and professional journey",
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Meet Century College Alum Mahmoud Alhihi",
+      subtitle:
+        "Featured by Century College.",
+      event_url: "https://www.century.edu/live/news/1056-meet-century-college-alum-mahmoud-alhihi",
+    },
+    {
+      title: "CSpotlight",
+      subtitle:
+        "Featured by University of Minnesota",
+      event_url: ""
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+
+  display: true // Set to true since this is a featured section now
 };
 
-// Podcast Section
 
+// Guest Lecture Section
+
+// Guest Lecture Section
+// Guest Lecture Section (using the original podcastSection name)
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji("Guest Lectures 🎤"),
+  subtitle: "Talks I've delivered on AI, Computer Vision, Robotics, and ML",
 
-  // Please Provide with Your Podcast embeded Link
+  // This array is what Podcast.js will render as embedded iframes
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://www.youtube.com/embed/GmRhBanvpz0"
+    // Guest lecture recording 1
   ],
-  display: false // Set false to hide this section, defaults to true
+
+  display: true
 };
+
+
 
 // Resume Section
 const resumeSection = {
