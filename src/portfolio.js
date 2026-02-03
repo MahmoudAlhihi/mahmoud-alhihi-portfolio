@@ -334,12 +334,12 @@ const achievementSection = {
     {
       title: "Fundamentals of Machine Learning and Artificial Intelligence",
       subtitle:
-        "",
+        "Foundational training in AI and ML concepts, covering the relationships between AI, ML, DL, and generative AI. Developed a solid understanding of core AI terminology, learning paradigms, and model categories, along with practical exposure to Amazon Web Servivces AI and ML services. Explored how cloud based AI tools are applied to real world problems across industries, emphasizing scalable deployment, innovation, and responsible use of AI",
       image: require("./assets/images/aws_logo.png"),
       imageAlt: "Stanford Medicine Logo",
       footerLink: [
         {
-          name: "Certification: ",
+          name: "Certification ",
           url: "https://drive.google.com/file/d/17I5KM1HBASloMKqSA2IdysyiS_EiQ9O7/view?usp=sharing"
         }
       ]
@@ -384,12 +384,12 @@ const achievementSection = {
     {
       title: "Introduction to Clincal Data",
       subtitle:
-        "",
+        "Training in clincal data science and healthcare AI concepts, covering electronic health records, clincal research workflows, and the ethical use of patient data. Topics included electronic phenotyping, rule-based and machine learning based phenotype definitions, feature vs. phenotype modeling, imperfect labeling strategies and probalisitc phenotyping using observational data.",
       image: require("./assets/images/stanford.png"),
       imageAlt: "Stanford Medicine Logo",
       footerLink: [
         {
-          name: "Certification: ",
+          name: "Certification ",
           url: ""
         }
       ]
@@ -400,12 +400,12 @@ const achievementSection = {
     {
       title: "Fundamentals of AI and Machine Learning in Healthcare",
       subtitle:
-        "",
+        "Training in core machine learning concepts and algorithms, covering supervised and unsupervised learning, linear and logistic regression, k-neares neighbors, decision trees, support vector machines, and clustering methods. Studied model training and evaluation, loss functions, regularization, bisa-variance trade-offs, and performance metrics.",
       image: require("./assets/images/stanford.png"),
       imageAlt: "Stanford Medicine Logo",
       footerLink: [
         {
-          name: "Certification: ",
+          name: "Certification ",
           url: "https://drive.google.com/file/d/1B-85-1Qs1y4Y-7iXRFvgxJz7A16v2sOc/view?usp=sharing "
         }
       ]
@@ -413,12 +413,12 @@ const achievementSection = {
     {
       title: "Evaluations of AI applications in Healthcare",
       subtitle:
-        "",
+        "Conceptual training in ethical, legal, and social aspects of artificial intelligence, focusing on responsible design, deployment, and evaluation of AI systems. Covered algorithmic bias, fairness, transparency, accountability, and explainability in machine learning models, as well as ethical trade-offs in data collection, labeling, and deployment.",
       image: require("./assets/images/stanford.png"),
       imageAlt: "Stanford Medicine Logo",
       footerLink: [
         {
-          name: "Certification: ",
+          name: "Certification ",
           url: "https://drive.google.com/file/d/1bOHriV8-tfcLDKlc1Af_OugGY83ftEii/view?usp=sharing"
         }
       ]
@@ -426,12 +426,12 @@ const achievementSection = {
     {
       title: "AI in healthcare Capstone project",
       subtitle:
-        "",
+        "Hands-on experience in end to end machine learning for helathcare applications, covering real world clincal data challeneges, including multimodal datasets (medical imaging and EHR), data leakage prevention, class imbalance handling, patient level data splitting, feature engineering and missing data treatment. Designed, trianed, and evaluated deep learning and classical ML models for clincal prediction tasks, with emphasis on robustness, fairness, and deployment aware evaluation",
       image: require("./assets/images/stanford.png"),
       imageAlt: "Stanford Medicine Logo",
       footerLink: [
         {
-          name: "Certification: ",
+          name: "Certification ",
           url: "https://drive.google.com/file/d/1VzwRHLBtyvvmOrcplkdtHnAi2wEKBU_n/view?usp=sharing"
         }
       ]
@@ -464,7 +464,8 @@ const blogSection = {
 
   blogs: [
     {
-      url: "", // Add the link to your paper, GitHub repo, Overleaf PDF later
+      url: `${process.env.PUBLIC_URL}/paper/Research_paper.pdf`,
+ // Add the link to your paper, GitHub repo, Overleaf PDF later
       title:
         "Comparative Analysis of CNNs and Vision Transformers for Medical Imaging",
       description:
@@ -485,15 +486,13 @@ const talkSection = {
   talks: [
     {
       title: "Meet Century College Alum Mahmoud Alhihi",
-      subtitle:
-        "Featured by Century College.",
+      subtitle:"Featured by Century College.",
       event_url: "https://www.century.edu/live/news/1056-meet-century-college-alum-mahmoud-alhihi",
     },
     {
       title: "CSpotlight",
-      subtitle:
-        "Featured by University of Minnesota",
-      event_url: ""
+      subtitle:"Featured by University of Minnesota",
+      event_url: "https://cse.umn.edu/cs/news/cspotlight-mastering-foundations",
     }
   ],
 
@@ -511,8 +510,11 @@ const podcastSection = {
 
   // This array is what Podcast.js will render as embedded iframes
   podcast: [
-    "https://www.youtube.com/embed/GmRhBanvpz0"
     // Guest lecture recording 1
+    "https://www.youtube.com/embed/GmRhBanvpz0",
+    "https://www.youtube.com/embed/ahG0sb6v8LE",
+
+    
   ],
 
   display: true
