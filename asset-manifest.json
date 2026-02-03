@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/mahmoud-alhihi-portfolio/static/css/main.bdb7cf2e.css",
+    "main.js": "/mahmoud-alhihi-portfolio/static/js/main.7e298b7d.js",
+    "static/css/64.bba8fa55.chunk.css": "/mahmoud-alhihi-portfolio/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/mahmoud-alhihi-portfolio/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/mahmoud-alhihi-portfolio/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bda0d7b7.chunk.js": "/mahmoud-alhihi-portfolio/static/js/769.bda0d7b7.chunk.js",
+    "static/media/mazebot.png": "/mahmoud-alhihi-portfolio/static/media/mazebot.d1a07023191731dd46e2.png",
+    "static/media/map.png": "/mahmoud-alhihi-portfolio/static/media/map.54bf34168b73357270e0.png",
+    "static/media/Montserrat-Regular.ttf": "/mahmoud-alhihi-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/detect.jpeg": "/mahmoud-alhihi-portfolio/static/media/detect.7b779793cd07082c0e76.jpeg",
+    "static/media/skin.png": "/mahmoud-alhihi-portfolio/static/media/skin.48d5d8454af42995a724.png",
+    "static/media/Agustina.woff": "/mahmoud-alhihi-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/aws_logo.png": "/mahmoud-alhihi-portfolio/static/media/aws_logo.1237dcb96fe43a664269.png",
+    "static/media/manOnTable.svg": "/mahmoud-alhihi-portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/mnLitLogo.png": "/mahmoud-alhihi-portfolio/static/media/mnLitLogo.a825d632efa7670d1a99.png",
+    "static/media/contactMailDark.svg": "/mahmoud-alhihi-portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/mahmoud-alhihi-portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/cv.png": "/mahmoud-alhihi-portfolio/static/media/cv.35b8fe9b6c9dc374b3e8.png",
+    "static/media/stanford.png": "/mahmoud-alhihi-portfolio/static/media/stanford.545c9c4913a478633840.png",
+    "static/media/centuryLogo.png": "/mahmoud-alhihi-portfolio/static/media/centuryLogo.7fa97cac7c7f54249b6b.png",
+    "static/media/skill.svg": "/mahmoud-alhihi-portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/mahmoud-alhihi-portfolio/index.html",
+    "static/media/talksCardBack.svg": "/mahmoud-alhihi-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.bdb7cf2e.css.map": "/mahmoud-alhihi-portfolio/static/css/main.bdb7cf2e.css.map",
+    "main.7e298b7d.js.map": "/mahmoud-alhihi-portfolio/static/js/main.7e298b7d.js.map",
+    "64.bba8fa55.chunk.css.map": "/mahmoud-alhihi-portfolio/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/mahmoud-alhihi-portfolio/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/mahmoud-alhihi-portfolio/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bda0d7b7.chunk.js.map": "/mahmoud-alhihi-portfolio/static/js/769.bda0d7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdb7cf2e.css",
+    "static/js/main.7e298b7d.js"
+  ]
+}
